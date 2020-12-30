@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["polars"] = [{"text":"impl&lt;T&gt; AsRef&lt;ChunkedArray&lt;T&gt;&gt; for ChunkedArray&lt;T&gt;","synthetic":false,"types":[]},{"text":"impl AsRef&lt;Expr&gt; for AggExpr","synthetic":false,"types":[]},{"text":"impl&lt;'a, T&gt; AsRef&lt;ChunkedArray&lt;T&gt;&gt; for dyn SeriesTrait + 'a <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;T: 'static + PolarsDataType,&nbsp;</span>","synthetic":false,"types":[]},{"text":"impl&lt;'a&gt; AsRef&lt;dyn SeriesTrait + 'a&gt; for Series","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
